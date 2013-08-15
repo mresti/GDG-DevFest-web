@@ -131,9 +131,12 @@ header {
     margin-left: 10px;
 }
 
-.social-header ul li a.social-facebook {background: url(../img/facebook.png) 0 0 no-repeat;}
-.social-header ul li a.social-twitter {background: url(../img/twitter.png) 0 0 no-repeat;}
-.social-header ul li a.social-gplus {background: url(../img/google_plus.png) 0 0 no-repeat;}
+.social-header ul li a.social-facebook-square {background: url(../img/facebook-square.png) 0 0 no-repeat;}
+.social-header ul li a.social-twitter-square {background: url(../img/twitter-square.png) 0 0 no-repeat;}
+.social-header ul li a.social-gplus-square {background: url(../img/googleplus-squeare.png) 0 0 no-repeat;}
+.social-header ul li a.social-facebook-circle {background: url(../img/facebook-circle.png) 0 0 no-repeat;}
+.social-header ul li a.social-twitter-circle {background: url(../img/twitter-cirle.png) 0 0 no-repeat;}
+.social-header ul li a.social-gplus-circle {background: url(../img/googleplus-circle.png) 0 0 no-repeat;}
 .social-header ul li .hashtag {
     display:block;
     margin-right: 40px;
@@ -296,14 +299,14 @@ header {
     font-size: 1.35em;
     letter-spacing: 0.05em;
     padding: 0.4em 0.4em 0.4em 0.4em;
-    background: #2fb2e7;
+    background: #da4b3f;
     color: #ffffff;
     text-decoration:none;
     text-transform:uppercase;
 }
 
 .btn a:hover{
-    color: #444444;
+    color: #e31212;
     background: #ffffff;
 }
 
