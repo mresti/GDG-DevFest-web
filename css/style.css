@@ -63,6 +63,10 @@ a:hover {
     color: #f7c53d;
 }
 
+.color-grey{
+    color: #555555;
+}
+
 a.link-yellow{
     color: #f7c53d;
 }
@@ -245,6 +249,7 @@ header {
     height: 100%;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .data-inside {
@@ -276,6 +281,23 @@ header {
     height: 100%;
     margin: 0 auto;
     padding: 6px 1%;
+}
+
+.sponsor-inside .sponsor-zone{
+    width: 100%;
+}
+.sponsor-type p{
+    font-size: 1.3em;
+}
+.sponsor-type ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sponsor-type ul li{
+    display: inline-block;
+    margin: 0 auto;
+    padding: .5em;
 }
 
 /* Call4papers card */
@@ -574,7 +596,7 @@ footer {
         padding: 0.3em 0.3em 0.3em 0.3em;
         font-size: 1em;
     }                                           
-    .sponsor ul li {
+    .organizer ul li {
         width: 70%;
     }
 
