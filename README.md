@@ -46,7 +46,7 @@ Contributed by:
 
 
 
-[1]: https://github.com/mresti/GDG-DevFest-web/blob/master/art/social-btn-cirle.png
-[2]: https://github.com/mresti/GDG-DevFest-web/blob/master/art/social-btn-square.png
+[1]: https://raw.github.com/mresti/GDG-DevFest-web/master/art/social-btn-cirle.png
+[2]: https://raw.github.com/mresti/GDG-DevFest-web/master/art/social-btn-square.png
 
 
