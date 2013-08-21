@@ -17,9 +17,11 @@ The website you can customize the social buttons:
 To use the social buttons circles you need to use the css class:
 
 ```
+...
    <li><a class="social-twitter-circle">Twitter</a></li>
    <li><a class="social-facebook-circle">Facebook</a></li>
    <li><a class="social-gplus-circle">Google Plus</a></li>
+...
 ```
 
 
@@ -29,9 +31,11 @@ To use the social buttons circles you need to use the css class:
 
 To use the social buttons circles you need to use the css class:
 ```
+...
    <li><a class="social-twitter-square">Twitter</a></li>
    <li><a class="social-facebook-square">Facebook</a></li>
    <li><a class="social-gplus-square">Google Plus</a></li>
+...
 ```
 
 
@@ -42,7 +46,7 @@ Contributed by:
 
 
 
-[1]: art/circle.png
-[2]: art/square.png
+[1]: https://github.com/mresti/GDG-DevFest-web/blob/master/art/social-btn-cirle.png
+[2]: https://github.com/mresti/GDG-DevFest-web/blob/master/art/social-btn-square.png
 
 
