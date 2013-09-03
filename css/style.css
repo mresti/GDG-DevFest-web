@@ -185,6 +185,38 @@ header {
     font-weight: normal;
 }
 
+/* Ticket card */
+.tickets {
+    background: #f7c53d;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: .5em 1% 0 1%;
+    text-align: center;
+}
+.tickets-inside {
+    width: 1050px;
+    max-width: 100%;
+    min-height: 300px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 1%;
+}
+.tickets > p{
+    text-align: left;
+}
+.tickets > h2{
+    text-align: left;
+}
+.tickets > a{
+    transition-duration : 0s;
+}
+.tickets > a > img{
+    max-width: 210px;
+    margin-bottom: 1em;
+    width: 50%;
+}
+
 /* Information card */
 .information {
     background: #5f85c3;
@@ -474,7 +506,10 @@ footer {
     .footer-menu ul li a.logo-footer {
         height: 80px;
         background-size: 400px 70px;
-    }               
+    }
+    .tickets>h2{
+        text-align: left;
+    }
 }               
                 
 /*** Media for tablet < 768 ***/
@@ -553,7 +588,10 @@ footer {
     .footer-menu ul li a.logo-footer {
         height: 70px;
         background-size: 300px 60px;
-    }  
+    }
+    .tickets>h2{
+        text-align: center;
+    }
 }
 
 /*** Media for mobile devices < 480 ***/
