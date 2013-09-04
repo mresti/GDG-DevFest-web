@@ -330,6 +330,7 @@ header {
     display: inline-block;
     margin: 0 auto;
     padding: .5em;
+	list-style:none;	
 }
 
 /* Call4papers card */
@@ -434,6 +435,8 @@ footer {
     padding: 0;
     float: left;
 }
+
+#backtop{position:fixed;bottom:20px;right:20px;cursor:pointer;}
 
 /*** Media for Desktop ***/
 @media screen and (min-width: 769px) {

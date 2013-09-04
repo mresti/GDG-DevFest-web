@@ -13,11 +13,14 @@
         <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
         <!-- CSS files -->
         <link rel="stylesheet" href="css/style.css">
+		<!-- JS files -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+		<script src="js/javascript.js"></script> 
     </head>
     <body>
 <header>
     <div class="header-inside">
-        <div class="logo-header">
+        <div id="logo" class="logo-header">
             <a href=""><h1>GDG DevFest Sur 2013 </h1></a>
         </div>
         <div class="social-header">
@@ -29,7 +32,7 @@
             </ul>
         </div>
         <nav>
-            <ul class="menu">
+            <ul class="menu menu-scroll">
                 <li><a href="#informacion">Información</a></li>
                 <li><a href="#call4papers">Call4papers</a></li>
                 <li><a href="#organizadores">Organizadores</a></li>
@@ -100,7 +103,9 @@
         <h2 class="title">Patrocinadores</h2>
         <h2>DIAMANTE</h2>
         <div class="sponsor-type">
-            <p>Sé el primer patrocinador diamante del DevFest Sur</p>
+            <ul>
+                <li><a href="https://www.google.com/" target="_blank"><img src="img/Google_Logo.png" alt="Google logo" border="0"></a></li>
+            </ul>
         </div>
         <h2 class="color-yellow">ORO</h2>
         <div class="sponsor-type">
@@ -115,9 +120,9 @@
 
  <footer id="contacto">
     <div class="footer-inside">
-        <div class="footer-menu">
+        <div class="footer-menu menu-scroll">
             <ul>
-                <li><a class="logo-footer" href="#">GDG DevFest Sur 2013</a></li>
+                <li><a class="logo-footer" href="#logo">GDG DevFest Sur 2013</a></li>
                 <li><a href="#informacion"> Información</a></li>
                 <li><a href="#call4papers"> Call4papers</a></li>
                 <li><a href="#organizadores"> Organizadores</a></li>
@@ -131,9 +136,8 @@
         
     </div><!-- footer-inside -->
 </footer>
-        
-<!-- JS files -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+<img id="backtop" src="img/back_top.png" alt="Back to top"/>        
+
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
