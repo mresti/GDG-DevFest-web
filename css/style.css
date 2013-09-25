@@ -215,11 +215,11 @@ header {
 }
 
 .box-ticket{
-    margin:10px auto 30px auto; width:390px;
+    margin:10px auto 30px auto; width:350px;
     background: white;
     border-color: red;
     border-style:dashed;
-    padding-bottom: 30px;
+    padding: 50px;
 }
 
 /* Information card */
